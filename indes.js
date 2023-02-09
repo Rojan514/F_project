@@ -18,7 +18,7 @@ app.get('/get-sum', (req, res) => {
     
     res.status(201).send(`sum = ${calculationHelper.sum(2,3)}`);
     res.send("Hello World he");
-    // console.log(sum);
+    console.log(sum);
 })
 
 app.post('/get-detail', (req, res) => {
